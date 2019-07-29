@@ -2,7 +2,7 @@ package com.dooboo;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import com.facebook.react.ReactActivity;
 

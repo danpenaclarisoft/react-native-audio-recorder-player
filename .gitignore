@@ -44,5 +44,3 @@ buck-out/
 *.keystore
 
 Example/android/java_*
-Example/package-lock.json
-package-lock.json
