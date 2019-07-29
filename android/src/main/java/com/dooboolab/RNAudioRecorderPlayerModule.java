@@ -87,7 +87,7 @@ public class RNAudioRecorderPlayerModule extends ReactContextBaseJavaModule impl
       mediaRecorder = new MediaRecorder();
       mediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
       mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
-      mediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.DEFAULT);
+      mediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
       if (path.equals("DEFAULT")) {
         mediaRecorder.setOutputFile(FILE_LOCATION);
       } else {
